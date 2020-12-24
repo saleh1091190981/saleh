@@ -1,0 +1,194 @@
+.body{
+    margin: 0px;
+    padding: 0px;
+    background: rgb(212, 212, 212);
+}
+.header{
+    width: 100%;
+    height: 600px;
+    background-image: url(img/saleh);
+    background-size: cover;
+    position: relative;
+}
+.opacity{
+width: 100%;
+height: 100%;
+background-color: rgb(119, 119, 119);
+opacity: 0.5;
+}
+.header p{
+    color: white;
+    position:absolute;
+    top: 160px;
+    left: 20%;
+    font-size: 80px;
+    font-family: Mirza;
+    
+}
+.navbar{
+    width: 100%;
+    height: 80px;
+    background: rgb(165, 165, 165);
+    border-bottom: solid thin rgb(0, 0, 0);
+    
+}
+.navbar p{
+    font-size: 40px;
+    font-family: Cairo;
+    color: rgb(0, 0, 0);
+    float: left;
+    margin-top: 0%;
+    margin-left: 5px;
+    
+    
+}
+.navbar ul{
+    font-size: 20px;
+    font-family: Amiri;
+    
+    list-style-type: none;
+    float: left;
+    margin-left: 50%;
+    margin-top: -80px;
+    width: 50%;
+}
+.navbar ul li{
+    display: inline;
+    margin-left: 2%;
+    margin-right: 10px;
+    font-style: oblique;
+    
+}
+.navbar ul li:hover{
+color: red ;
+}
+.about{
+    padding: 80px 0;
+    border-bottom: solid thin rgb(0, 0, 0);
+}
+.about p {
+    width: 45%;
+    font-size: 40px;
+    font-family: Amiri;
+    float: left;
+}
+.about p span{
+    display: block;
+    font-family: Mirza;
+    font-size: 55px;
+    border-bottom: solid thin red;
+    width: 30%;
+    margin-bottom: 20px;
+}
+.about img {
+    width: 52%;
+    height: 400px;
+    box-shadow: 10px 0 30px black;
+}
+
+
+.app{
+    width: 100%;
+    height: 450px;
+    border-bottom: solid thin rgb(0, 0, 0);
+    
+}
+.app p {
+    width: 45%;
+    font-size: 40px;
+    font-family: Amiri;
+    float: right;
+}
+.app p span{
+    
+    display: block;
+    font-family: Mirza;
+    font-size: 40px;
+    border-bottom: solid thin red;
+    width: 6cm;
+    margin-bottom: 20px;
+}
+.app img{
+    width: 52%;
+    height: 400px;
+    margin-top: 25px;
+    box-shadow: 10px 0 30px black;
+    float: left;
+}
+.web{
+    width: 100%;
+    height: 500px;
+    border-bottom: solid thin rgb(0, 0, 0);
+    margin: 40px;
+}
+.web img{
+    width:45%;
+    height: 400px;
+    box-shadow: 10px 0 30px black;
+    float: right;
+}
+.web p {
+    width: 50%;
+    font-size: 40px;
+    font-family: Amiri;
+    float: left;
+}
+.web p span{
+    display: block;
+    font-family: Mirza;
+    font-size: 40px;
+    border-bottom: solid thin red;
+    width: 5cm;
+}
+.contact-us{
+    float: left;
+    width: 100%;
+    height: 295px;
+    border-bottom: solid thin rgb(0, 0, 0);
+}
+.contact-us .item{
+    width: 20%;
+    height: 100px;
+    float: left;
+    box-shadow: 0 0 20px;
+    margin-left: 10%;
+    border-radius: 5px;
+    text-align: center;
+    padding-top: 0.7cm;
+}
+.contact-us ul {
+    list-style-type: none;
+    margin-top: 200px;
+    margin-right: 37%;
+    
+}
+.contact-us ul button{
+    display: inline;
+    margin-left: 4%;
+    transition: all 0.5s;
+}
+.contact-us ul .twitter{
+    color: rgb(61, 61, 255);
+}
+.contact-us ul .instagram{
+    color: rgb(162, 1, 202);
+}
+.contact-us ul .snapchat{
+    color: rgb(217, 255, 0);
+}
+.contact-us ul .whatsapp{
+    color: rgb(44, 185, 44);
+}
+
+.copy{
+    width: 100%;
+    height: 30px;
+    background-color: black;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+
+
+}
+
+
